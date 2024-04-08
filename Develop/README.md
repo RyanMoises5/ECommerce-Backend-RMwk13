@@ -37,14 +37,15 @@ THEN I am able to successfully create, update, and delete data in my database
 
 ## URLs and Images 
 
-<!-- NEEDS UPDATE -->
 The following link is the GitHub repository where the associated files are located:
 
 (https://github.com/RyanMoises5/Employee-Tracker-RMwk12)
 
-![GIF of the app in action](./assets/walkthrough.gif)
+![GIF of the schema and seed scripts functioning](./assets/walkthrough1.gif)
+![GIF of the routes functioning in Insomnia](./assets/walkthrough2.gif)
 
-Click [HERE](./assets/walkthrough.webm) for the raw video showcasing how the app works
+Click [HERE](./assets/walkthrough1.webm) for the raw video showcasing how the schema and seeds scripts work
+Click [HERE](./assets/walkthrough2.webm) for the raw video showcasing how the routes function in Insomnia
 
 ---
 

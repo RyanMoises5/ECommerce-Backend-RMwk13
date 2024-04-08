@@ -33,13 +33,14 @@ router.get('/:id', async (req, res) => {
   }
 });
 
-// Create new product -- CODE NOT WORKING
+// Create new product
 router.post('/', (req, res) => {
   /* req.body should look like this...
     {
       product_name: "Basketball",
       price: 200.00,
       stock: 3,
+      category_id: 1
       tagIds: [1, 2, 3, 4]
     }
   */
