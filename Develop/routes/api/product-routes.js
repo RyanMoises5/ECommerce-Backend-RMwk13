@@ -33,7 +33,7 @@ router.get('/:id', async (req, res) => {
   }
 });
 
-// Create new product
+// Create new product -- CODE ALREADY WORKING
 router.post('/', (req, res) => {
   /* req.body should look like this...
     {
@@ -65,7 +65,7 @@ router.post('/', (req, res) => {
     });
 });
 
-// Update product
+// Update product -- CODE ALREADY WORKING 
 router.put('/:id', (req, res) => {
   // update product data
   Product.update(req.body, {
@@ -105,7 +105,6 @@ router.put('/:id', (req, res) => {
       return res.json(product);
     })
     .catch((err) => {
-      // console.log(err);
       res.status(400).json(err);
     });
 });
