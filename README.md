@@ -39,7 +39,7 @@ THEN I am able to successfully create, update, and delete data in my database
 
 The following link is the GitHub repository where the associated files are located:
 
-(https://github.com/RyanMoises5/Employee-Tracker-RMwk12)
+(https://github.com/RyanMoises5/ECommerce-Backend-RMwk13/)
 
 ![GIF of the schema and seed scripts functioning](./assets/walkthrough1.gif)
 
