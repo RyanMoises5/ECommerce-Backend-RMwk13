@@ -33,7 +33,7 @@ router.get('/:id', async (req, res) => {
   }
 });
 
-// Create new product -- CODE ALREADY WORKING
+// Create new product -- CODE NOT WORKING
 router.post('/', (req, res) => {
   /* req.body should look like this...
     {
@@ -65,7 +65,7 @@ router.post('/', (req, res) => {
     });
 });
 
-// Update product -- CODE ALREADY WORKING 
+// Update product -- CODE NOT WORKING
 router.put('/:id', (req, res) => {
   // update product data
   Product.update(req.body, {
